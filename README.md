@@ -9,11 +9,12 @@ You won’t have a lot of instruction, you are free to implement it the way that
 ## What is Figma?
 
 ![Desktop](images/figma.jpg)
+<br>
 Figma is an interface design application that runs in the browser—but it’s actually much more than that. I would go so far as to say it’s probably the best application for team-based collaborative design projects.
 
 Figma gives you all the tools you need for the design phase of the project, including vector tools which are capable of fully-fledged illustration, as well as prototyping capabilities, and code generation for hand-off.
 
-<img src="images/figma2.PNG" alt="figma browser" width=600px>
+<img src="images/figma2.PNG" alt="figma browser" title="figma browser" width=600px>
 
 ## Features
 
@@ -30,8 +31,8 @@ Here the final result:
 
 ### Tablet
 
-<img src="images/01_headphones_tablet@2x.png" alt="figma desktop" title="Desktop Headphones" height=1600px>
+<img src="images/01_headphones_tablet@2x.png" alt="figma desktop" title="Tablet Headphones" height=1600px>
 
 ### Mobile
 
-<img src="images/01_headphones_mobile@2x.png" alt="figma desktop" title="Desktop Headphones" height=2000px>
+<img src="images/01_headphones_mobile@2x.png" alt="figma desktop" title="Mobile Headphones" height=2000px>
