@@ -26,12 +26,12 @@ Here the final result:
 
 ### Desktop
 
-<img src="images/01_headphones_desktop@2x.png" alt="figma desktop" title="Desktop Headphones" height=1000px>
+<img src="images/01_headphones_desktop@2x.png" alt="figma desktop" title="Desktop Headphones" height=1200px>
 
 ### Tablet
 
-<img src="images/01_headphones_tablet@2x.png" alt="figma desktop" title="Desktop Headphones" height=1000px>
+<img src="images/01_headphones_tablet@2x.png" alt="figma desktop" title="Desktop Headphones" height=1600px>
 
 ### Mobile
 
-<img src="images/01_headphones_mobile@2x.png" alt="figma desktop" title="Desktop Headphones" height=1000px>
+<img src="images/01_headphones_mobile@2x.png" alt="figma desktop" title="Desktop Headphones" height=2000px>
