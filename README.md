@@ -13,7 +13,7 @@ Figma is an interface design application that runs in the browser—but it’s a
 
 Figma gives you all the tools you need for the design phase of the project, including vector tools which are capable of fully-fledged illustration, as well as prototyping capabilities, and code generation for hand-off.
 
-![Desktop](images/figma2.PNG)
+<img src="images/figma2.PNG" alt="figma browser" width=600px>
 
 ## Features
 
@@ -26,12 +26,12 @@ Here the final result:
 
 ### Desktop
 
-![Desktop](images/01_headphones_desktop@2x.png)
+<img src="images/01_headphones_desktop@2x.png" alt="figma desktop" title="Desktop Headphones" height=1000px>
 
 ### Tablet
 
-![Tablet](images/01_headphones_tablet@2x.png)
+<img src="images/01_headphones_tablet@2x.png" alt="figma desktop" title="Desktop Headphones" height=1000px>
 
 ### Mobile
 
-![Mobile](images/01_headphones_mobile@2x.png)
+<img src="images/01_headphones_mobile@2x.png" alt="figma desktop" title="Desktop Headphones" height=1000px>
