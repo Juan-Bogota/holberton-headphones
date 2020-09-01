@@ -345,7 +345,8 @@ ul.nav {
 
   .header-container {
     flex-wrap: wrap;
-    padding: 0 1.5rem;
+    width: 400px;
+    margin: auto;
   }
 
   .header .menu-icon {
