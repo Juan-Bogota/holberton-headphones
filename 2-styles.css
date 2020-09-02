@@ -190,6 +190,7 @@ body {
   background-repeat: no-repeat;
   background-position: 35% 0rem;
   background-repeat: no-repeat;
+  padding-bottom: 5rem;
 }
 
 .header,
@@ -359,7 +360,8 @@ ul.nav {
   }
 
   .header-logo {
-    flex-basis: 70%;
+    flex-basis: 65%;
+    padding-left: 30px;
   }
 
   .nav-link {
@@ -445,6 +447,9 @@ ul.nav {
 /* What we do section
   ======================*/
 
+.section-what {
+  padding: 8rem 0 15rem 0;
+}
 .section-what [class*="col-"],
 .section-our [class*="col-"] {
   align-self: center;
@@ -465,6 +470,10 @@ ul.nav {
   width: 637px;
   margin: auto;
   padding: auto;
+}
+
+.shadow {
+  text-shadow: 2px 2px 2px #cac1c1;
 }
 /* Grid
       ============================= */
@@ -529,7 +538,8 @@ ul.row {
   z-index: 3;
   background: transparent;
   background-image: url(/images/headphones_hero_2.jpg);
-  background-size: 100% 100%;
+  background-size: auto;
+  background-color: #09152b;
   background-repeat: no-repeat;
   background-position: 35% 0rem;
   background-repeat: no-repeat;
