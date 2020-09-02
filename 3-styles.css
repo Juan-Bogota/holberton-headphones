@@ -438,6 +438,7 @@ ul.nav {
   border-radius: 2em;
   padding: 1rem 3rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .header .button {
