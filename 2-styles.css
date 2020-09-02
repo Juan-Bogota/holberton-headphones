@@ -366,7 +366,6 @@ ul.nav {
     margin-top: 3rem;
   }
 }
-
 /* hero 
     ========================== */
 .section-hero {
@@ -398,7 +397,6 @@ ul.nav {
   text-align: center;
   padding: 0 10rem 0rem 10rem;
 }
-
 @media all and (max-width: 767px) {
   .homepage-content {
     text-align: center;
@@ -447,7 +445,8 @@ ul.nav {
 /* What we do section
   ======================*/
 
-.section-what [class*="col-"] {
+.section-what [class*="col-"],
+.section-our [class*="col-"] {
   align-self: center;
   text-align: center;
 }
@@ -467,11 +466,6 @@ ul.nav {
   margin: auto;
   padding: auto;
 }
-
-.shadow {
-  text-shadow: 2px 2px 2px #cac1c1;
-}
-
 /* Grid
       ============================= */
 
@@ -524,5 +518,92 @@ ul.row {
     width: 325px;
     margin: auto;
     padding: auto;
+  }
+}
+
+/* our results
+  ================*/
+.section-our {
+  padding: var(--header-padding);
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  background-image: url(/images/headphones_hero_2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 35% 0rem;
+  background-repeat: no-repeat;
+  padding: 100px 0 50px 0;
+}
+
+.section-our .container {
+  background-image: var(--color-black);
+}
+.section-our .section-header {
+  color: var(--color-white);
+}
+
+.pentagone {
+  width: 190px;
+  height: 190px;
+  background: url(/images/pentagone.png);
+  background-size: 188px 180px;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-position: center;
+}
+
+.pentagone h1 {
+  color: var(--color-white);
+  padding-top: 20px;
+  font-size: 2.6em;
+}
+
+.pentagone p {
+  color: var(--color-white);
+  margin-top: -10px;
+  padding: 0;
+  font-size: 0.75em;
+}
+
+@media all and (max-width: 767px) {
+  ul.row,
+  .row {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  [class^="col-"] {
+    width: 50%;
+    margin: auto;
+    padding: auto;
+  }
+
+  .pentagone {
+    margin-top: 3rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  ul.row,
+  .row {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  [class^="col-"] {
+    width: 207px;
+    margin: auto;
+    padding: auto;
+  }
+
+  .section-description {
+    width: 325px;
+    margin: auto;
+    padding: auto;
+  }
+
+  .pentagone {
+    margin-top: 4rem;
   }
 }
